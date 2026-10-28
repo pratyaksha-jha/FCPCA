@@ -4,7 +4,7 @@ This project uses Fuzzy Clustering of Multivariate Time Series based on PCA (FCP
 - **Author**: Pratyaksha Jha, Somita Agarwal
 - **Roll No**: 240150025, 240150035
 ## Dataset
-- The dataset file is `dataset.mat`.
+- The dataset file is available at [Link](https://figshare.com/articles/dataset/EEG_driver_drowsiness_dataset/14273687?file=30707285)
 - It contains 2,022 EEG samples from 11 subjects.
 - Each sample contains 30 EEG channels recorded over 384 time points.
 - The labels identify the subject and the alert/drowsy state.
@@ -22,5 +22,6 @@ This project uses Fuzzy Clustering of Multivariate Time Series based on PCA (FCP
 ## Output
 The notebook displays clustering scores for each subject, the number of detected mixed/transitional states, and plots showing the membership values and overall results.
 ## Reference
-The implementation is based on the FCPCA research paper:
+- The implementation is based on the FCPCA research paper:
 https://www.sciencedirect.com/science/article/pii/S0888613X25001938
+- The dataset file is available at https://figshare.com/articles/dataset/EEG_driver_drowsiness_dataset/14273687?file=30707285
